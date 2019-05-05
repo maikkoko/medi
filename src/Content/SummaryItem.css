@@ -1,0 +1,46 @@
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  color: #333333;
+  align-items: center;
+  padding: 24px;
+}
+
+.summary-item .details {
+  flex: 1;
+}
+
+.summary-item .details > p {
+  margin: 0;
+}
+
+.summary-item .details > div {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.summary-item .details > div h3 {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.summary-item .details > div span {
+  font-weight: normal;
+  font-size: 16px;
+  color: #666;
+  vertical-align: middle;
+  padding-left: 8px;
+}
+
+.summary-item .snapshot {
+  color: #fff;
+  font-size: 16px;
+  padding: 2px 12px;
+  border-radius: 14px;
+}
+
+.summary-item .graph {
+  margin-right: 16px;
+}

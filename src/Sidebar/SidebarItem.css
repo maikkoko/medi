@@ -1,0 +1,29 @@
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+.sidebar-item:hover {
+  cursor: pointer;
+  background-color: rgba(222, 76, 52, 0.06);
+}
+
+.side-bar--active {
+  background-color: rgba(222, 76, 52, 0.12) !important;
+}
+
+.sidebar-item .sidebar-item__icon {
+  width: 24px;
+  padding-right: 12px;
+}
+
+.sidebar-item .sidebar-item__label {
+  color: #666;
+}
+
+.sidebar-item .sidebar-item__notif {
+  padding-left: 12px;
+  color: rgba(222, 76, 52, 1);
+  font-weight: 600;
+}

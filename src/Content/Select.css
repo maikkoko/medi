@@ -1,0 +1,39 @@
+.select-container {
+  position: relative;
+}
+
+.select-container > .select-icon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-65%);
+}
+
+.select-container > select {
+  display: block;
+  font-family: "Circular Std";
+  color: #555;
+  font-size: 14px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 185.344 185.344'> <path d='M92.672,144.373c-2.752,0-5.493-1.044-7.593-3.138L3.145,59.301c-4.194-4.199-4.194-10.992,0-15.18 c4.194-4.199,10.987-4.199,15.18,0l74.347,74.341l74.347-74.341c4.194-4.199,10.987-4.199,15.18,0 c4.194,4.194,4.194,10.981,0,15.18l-81.939,81.934C98.166,143.329,95.419,144.373,92.672,144.373z' fill='%23999999' /></svg>");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 12px;
+  background-position: calc(100% - 12px) center;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 32px 8px 40px;
+  appearance: none;
+}
+
+.select-container > select::-ms-expand {
+  display: none;
+}
+.select-container > select:hover {
+  border-color: #888;
+  cursor: pointer;
+}
+.select-container > select:focus {
+  outline: none;
+}

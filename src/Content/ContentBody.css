@@ -1,0 +1,119 @@
+.content__body {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.content__body > h3 {
+  font-size: 16px;
+  color: #606060;
+}
+
+.content__body > h3 > span {
+  font-weight: normal;
+}
+
+.content__body > ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 36px;
+  margin: 0;
+  padding: 12px 0;
+}
+
+.content__body > ul > li {
+  background-color: white;
+  /* height: calc((320px) - (36px * 2)); */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.content__body > ul > li:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+}
+
+.content__body .card {
+  position: relative;
+  padding: 24px 24px 48px;
+}
+
+.content__body .card > button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: rgba(222, 76, 52, 1);
+  font-family: "Circular Std";
+  font-size: 14px;
+  border: none;
+}
+
+.content__body .card > button:hover {
+  cursor: pointer;
+  color: rgba(222, 76, 52, 0.8);
+}
+
+.content__body .card > button:active,
+.content__body .card > button:focus {
+  outline: none;
+  border: none;
+}
+
+.card > div {
+  display: flex;
+}
+
+.card > div .card__display-image {
+  height: 80px;
+  width: 80px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+}
+
+.card > div .card__details {
+  padding-left: 24px;
+}
+
+.card > div .card__details > p.display-name {
+  font-size: 20px;
+  margin: 6px 0;
+  color: #606060;
+}
+
+.card > div .card__details > p.display-label {
+  font-size: 14px;
+  margin: 0;
+  color: #909090;
+}
+
+.card > div .card__details .indicators {
+  display: flex;
+  margin: 12px 0;
+}
+
+.card > div .card__details .indicators > div:first-child {
+  margin-right: 16px;
+}
+
+.card .timestamps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .timestamps > h4 {
+  margin: 24px 0;
+  font-size: 24px;
+  font-weight: normal;
+  color: #606060;
+}
+
+.card .timestamps > p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #909090;
+}
